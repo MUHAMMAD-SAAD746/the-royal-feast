@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    padding: 12px 50px;
+    background-color: #000 !important;
+    border-bottom: 1px solid rgba(255, 193, 7, 0.4);
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+nav .navbar-brand {
+    font-family: serif;
+    font-size: 24px;
+    color: #FFC107;
+    margin-right: 0;
+}
+
+.nav-link {
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 20px;
+}
+
+.reservation-cta {
+    background-color: #fca800;
+    border-radius: 20px;
+    padding: 8px 25px;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: #FFC107;
+}
+
+header {
+    background-image: url(./assets/images/grilled-salmon.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+    /* background-size: cover; */
+    padding-top: 120px;
+    text-align: center;
+    /* background-position: 10px 50px; */
+}
+
+header h1 {
+    text-transform: capitalize;
+    font-size: 105px;
+    color: #FFC107;
+    font-family: serif;
+    width: 100%;
+    padding: 0 50px;
+}
+
+header p {
+    color: #fff;
+    font-family: sans-serif;
+
+}
+
+header .tag-line {
+    width: 100%;
+    padding: 0 96px;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-family: serif;
+}
+
+header .subtext {
+    width: 100%;
+    padding: 0 49px;
+    /* display: block;
+    margin: 0 auto; */
+    margin-top: 40px;
+    font-weight: 200 !important;
+    font-family: poppins;
+    font-size: 20px;
+}
+
+.reservation-btn2 {
+    width: 15%;
+    padding: 13px;
+    border-radius: 40px;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #fca800;
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 107vh;
+        background-size: 110% 100%;
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 70px;
+        padding: 0 20px;
+    }
+
+    header .tag-line {
+        padding: 0 53px;
+        font-size: 23px;
+    }
+
+    header .subtext {
+        padding: 0 20px;
+        /* margin-top: 40px; */
+        /* font-weight: 200 !important; */
+        font-size: 15px;
+    }
+
+    .reservation-btn2 {
+        width: 25%;
+        padding: 8px;
+        /* border-radius: 40px; */
+        /* text-transform: capitalize; */
+        font-size: 18px;
+        /* margin: 0 auto; */
+        /* margin-top: 50px; */
+        /* background-color: #fca800; */
+    }
+}
