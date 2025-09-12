@@ -5,7 +5,7 @@
 }
 
 .navbar {
-    padding: 12px 50px;
+    padding: 12px 30px 12px 50px;
     background-color: #000 !important;
     border-bottom: 1px solid rgba(255, 193, 7, 0.4);
     position: fixed;
@@ -18,6 +18,10 @@ nav .navbar-brand {
     font-size: 24px;
     color: #FFC107;
     margin-right: 0;
+}
+
+.navbar-toggler-icon {
+    color: #fff !important;
 }
 
 .nav-link {
@@ -42,6 +46,10 @@ nav .navbar-brand {
     align-items: center;
     justify-content: center;
     font-size: 18px;
+}
+
+.navbar-nav {
+    margin-left: 35px;
 }
 
 .nav-link:hover {
@@ -107,7 +115,8 @@ header .subtext {
 
 @media (max-width: 768px) {
     header {
-        height: 107vh;
+        height: 90vh;
+        /*change this*/
         background-size: 110% 100%;
         padding-top: 100px;
         text-align: center;
@@ -143,6 +152,17 @@ header .subtext {
 }
 
 @media (max-width: 480px) {
+    .navbar {
+        padding: 7px 10px;
+    }
+
+    nav .navbar-brand {
+        /* font-family: serif; */
+        font-size: 20px;
+        /* color: #FFC107; */
+        /* margin-right: 0; */
+    }
+
     header {
         padding-top: 80px;
         height: 80vh;
