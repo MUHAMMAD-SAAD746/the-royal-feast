@@ -17,11 +17,11 @@ nav .navbar-brand {
     font-family: serif;
     font-size: 24px;
     color: #FFC107;
-    margin-right: 0;
+    margin-right: 30px;
 }
 
-.navbar-toggler-icon {
-    color: #fff !important;
+.navbar-dark .navbar-toggler {
+    border: none;
 }
 
 .nav-link {
@@ -49,11 +49,16 @@ nav .navbar-brand {
 }
 
 .navbar-nav {
-    margin-left: 35px;
+    margin: 0 auto;
 }
 
 .nav-link:hover {
     color: #FFC107;
+}
+
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .navbar-brand:focus {
+    color: #FFC107 !important;
 }
 
 header {
@@ -164,8 +169,8 @@ header .subtext {
     }
 
     header {
-        padding-top: 90px;
-        height: 65vh;
+        padding-top: 100px;
+        height: 60vh;
         /* reduce height for small phones */
     }
 
@@ -180,6 +185,7 @@ header .subtext {
 
     header .subtext {
         font-size: 14px;
+        padding: 0 10px;
     }
 
     .reservation-btn2 {
