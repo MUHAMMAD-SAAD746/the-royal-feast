@@ -165,7 +165,7 @@ header .subtext {
 
     header {
         padding-top: 80px;
-        height: 80vh;
+        height: 70vh;
         /* reduce height for small phones */
     }
 
@@ -175,6 +175,7 @@ header .subtext {
 
     header .tag-line {
         font-size: 18px;
+        padding: 0 3px;
     }
 
     header .subtext {
