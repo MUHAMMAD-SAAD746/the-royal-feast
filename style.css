@@ -141,3 +141,28 @@ header .subtext {
         /* background-color: #fca800; */
     }
 }
+
+@media (max-width: 480px) {
+    header {
+        padding-top: 80px;
+        height: 80vh;
+        /* reduce height for small phones */
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header .tag-line {
+        font-size: 18px;
+    }
+
+    header .subtext {
+        font-size: 14px;
+    }
+
+    .reservation-btn2 {
+        font-size: 14px;
+        padding: 8px 18px;
+    }
+}
