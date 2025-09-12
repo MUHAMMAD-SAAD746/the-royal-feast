@@ -164,8 +164,8 @@ header .subtext {
     }
 
     header {
-        padding-top: 80px;
-        height: 70vh;
+        padding-top: 90px;
+        height: 65vh;
         /* reduce height for small phones */
     }
 
