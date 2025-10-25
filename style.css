@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+.serif {
+    font-family: serif;
+}
+
+.golden {
+    color: #FFC107;
+}
+
+.navy-blue {
+    background-color: #101828;
+}
+
+/* ............ universal styling above ............. */
+
 .navbar {
     /* padding: 12px 30px 12px 50px; */
     padding: 12px 120px;
@@ -129,9 +143,9 @@ section.about {
     padding: 70px 110px;
 }
 
-section.about .about-txt {
+/* section.about .about-txt {
     width: 520px;
-}
+} */
 
 section.about h1 {
     color: #fca800;
@@ -160,7 +174,90 @@ section.about .milestones h3 {
 
 /* ........ about section ends here ............. */
 
-@media (max-width: 768px) {
+
+
+/* ........... Culinary Artisans portion starts from here ........... */
+section.chef h1,
+p {
+    text-align: center;
+}
+
+.chef h1 {
+    font-size: 45px;
+}
+
+.chef p {
+    color: white;
+    font-size: 18px;
+}
+
+.box-container {
+    margin: 25px 0;
+}
+
+.chef .box {
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: 0.4s ease;
+}
+
+.chef .box.b1 {
+    background-image: url(./assets/images/female\ cook.avif);
+    background-position: 0 -100px;
+    background-size: 100% 610px;
+}
+
+.chef .box.b2 {
+    /* background-image: url(./assets/images/chef_upscaled.png); */
+    background-image: url(./assets/images/version6.png);
+    background-position: 0 -80px;
+    background-size: 100% 600px ;
+}
+
+.chef .box.b1:hover,
+.box.b2:hover {
+    filter: grayscale(0%);
+}
+
+.box-container p {
+    font-size: 14.5px;
+}
+
+p.chef-intro {
+    color: #9c9c9c;
+}
+
+.philosophy {
+    background-color: #000;
+    width: 750px;
+    display: block;
+    margin: 40px auto 80px;
+    border-radius: 10px;
+    border: 1px solid #fca80052;
+}
+
+.philosophy p {
+    font-size: 15px;
+}
+
+/* ........... Culinary Artisans portion ends here ........... */
+
+
+
+
+
+
+
+
+
+
+/* @media (min-width: 481px) and (max-width: 768px) { */
+@media (min-width: 567px) and (max-width: 767px) {
     header {
         height: 90vh;
         background-size: 110% 100%;
@@ -190,7 +287,13 @@ section.about .milestones h3 {
         padding: 10px;
         font-size: 18px;
     }
+
+    .chef .box.b2 {
+    background-size: cover;
 }
+}
+
+
 
 @media (max-width: 480px) {
     .navbar {
