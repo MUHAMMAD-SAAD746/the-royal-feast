@@ -12,8 +12,16 @@
     color: #FFC107;
 }
 
+.bg-golden {
+    background-color: #fca800;
+}
+
 .navy-blue {
     background-color: #101828;
+}
+
+.black {
+    background-color: #000;
 }
 
 /* ............ universal styling above ............. */
@@ -244,12 +252,48 @@ p.chef-intro {
 .philosophy p {
     font-size: 15px;
 }
-
 /* ........... Culinary Artisans portion ends here ........... */
 
 
 
+/* .......... Exclusive styling starts from here ............. */
+.card .exclusive-btn {
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+}
 
+.golden-bullets li::marker {
+  color: #FFC107; /* golden color */
+  font-size: 1.2em; /* slightly larger bullets (optional) */
+}
+
+.golden-bullets li {
+    font-size: 14px;
+}
+
+.exclusive .card-body p {
+    font-size: 16px;
+}
+
+.exclusive .card {
+    border: 1px solid #fca80052;
+}
+
+.exclusive .private-dine{
+    background-color: #ff840024;
+    border: 1px solid #fc930052;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.exclusive .private-dine a.private-dine-btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 30px;
+    border-radius: 30px;
+}
+/* .......... Exclusive styling ends here .................... */
 
 
 
