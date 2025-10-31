@@ -224,7 +224,7 @@ p {
     /* background-image: url(./assets/images/chef_upscaled.png); */
     background-image: url(./assets/images/version6.png);
     background-position: 0 -80px;
-    background-size: 100% 600px ;
+    background-size: 100% 600px;
 }
 
 .chef .box.b1:hover,
@@ -252,6 +252,7 @@ p.chef-intro {
 .philosophy p {
     font-size: 15px;
 }
+
 /* ........... Culinary Artisans portion ends here ........... */
 
 
@@ -264,8 +265,10 @@ p.chef-intro {
 }
 
 .golden-bullets li::marker {
-  color: #FFC107; /* golden color */
-  font-size: 1.2em; /* slightly larger bullets (optional) */
+    color: #FFC107;
+    /* golden color */
+    font-size: 1.2em;
+    /* slightly larger bullets (optional) */
 }
 
 .golden-bullets li {
@@ -277,10 +280,33 @@ p.chef-intro {
 }
 
 .exclusive .card {
-    border: 1px solid #fca80052;
+    border: 1px solid #fca80035;
+    overflow: hidden;
+    transition: transform 0.7s ease-in-out;
 }
 
-.exclusive .private-dine{
+.image-container {
+    position: relative;
+}
+
+.exclusive .card .card-img-top {
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.price-tag {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: #fc8b00;
+    color: black;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.exclusive .private-dine {
     background-color: #ff840024;
     border: 1px solid #fc930052;
     border-radius: 10px;
@@ -293,6 +319,15 @@ p.chef-intro {
     padding: 8px 30px;
     border-radius: 30px;
 }
+
+.exclusive .card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.exclusive .card:hover {
+    border: 1px solid #fc930070;
+}
+
 /* .......... Exclusive styling ends here .................... */
 
 
@@ -333,8 +368,8 @@ p.chef-intro {
     }
 
     .chef .box.b2 {
-    background-size: cover;
-}
+        background-size: cover;
+    }
 }
 
 
