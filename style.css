@@ -31,7 +31,7 @@
 }
 
 .navy-blue {
-    background-color: #101828;
+    background-color: #101828 !important;
 }
 
 .black {
@@ -380,6 +380,121 @@ p.source {
 }
 
 /* .......... Testimonials styling ends here .......... */
+
+
+
+/* ........... Contact styling starts under ............ */
+.contact p.contact-para {
+    width: 42%;
+}
+
+.contact label {
+    color: #fff;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.contact form input,
+.contact form textarea,
+.contact form select,
+.contact form option {
+    color: white;
+    border-color: #203153;
+    font-size: 14px;
+}
+
+.contact form select:focus,
+.contact form textarea:focus,
+.contact form input:focus {
+    border-color: #fca800;
+    box-shadow: none;
+    color: #fff;
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder {
+    color: #757c8a;
+    opacity: 1;
+    font-size: 14px;
+}
+
+.reservation-info {
+    /* width: 90%; */
+    border-radius: 15px;
+    padding-left: 25px;
+    border: 1px solid #fca80052;
+}
+
+.reservation-info p {
+    font-size: 14px;
+}
+
+.reservation-info h4 {
+    font-size: 20px;
+}
+
+#contact-container {
+    border-bottom : 1px solid #fca80052;
+    padding: 0 105px 60px;
+}
+
+/* .personal-info {
+    border-bottom: 1px solid #fca80052;
+} */
+
+.personal-info h1 {
+    font-size: 25px;
+}
+
+.personal-info .Restaurant-col p {
+    max-width: 74%;
+}
+
+.personal-info p.p-text {
+    font-size: 14.5px;
+    color: rgb(177, 177, 177);
+}
+
+.personal-info #icons a {
+    color: rgb(177, 177, 177);
+    margin-right: 10px;
+    font-size: 25px;
+    transition: ease-in 0.2s;
+}
+
+.personal-info #icons a:hover {
+    color: #FFC107;
+}
+
+.personal-info ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.personal-info ul li a {
+    color: rgb(177, 177, 177);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.contact-column {
+    padding: 0 !important;
+}
+
+.contact-column p {
+    max-width: 85%;
+    /* border: 1px solid white; */
+}
+
+div.bottom-border {
+    border-bottom: 1px solid #fca80052;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.copyright {
+    color: rgb(71, 71, 71);
+}
 
 
 
